@@ -1,0 +1,39 @@
+# Prompts!!
+
+-- supermarket_sales
+1. Can you provide a detailed explanation of the content, specifically focusing on any information related to business-to-customer interactions?
+2. Can you analyze the customer behavior patterns from the data? For example, purchasing trends, customer preferences, or any recurring patterns?
+3. Can you identify any anomalies or outliers in the customer interactions or transactions?
+4. Can you suggest any potential improvements or actions that can be taken to optimize the business-to-customer interactions or increase customer satisfaction?
+
+5.Can you describe each column detail? what it is ?
+example: Invoice ID: The ID of the invoice.
+Branch: The branch of the supermarket.
+City: The city where the supermarket is located.
+
+--data dictionary
+what is structure of FACTINVENTORY. Give me its data types
+What is the ColumnDataType/columnLength/CreatorName of “DatabaseName” column is EDW of “Tablename ” column is dimdate
+Give me the list of TableNames  does the “DataBaseName”  Column is EDW
+
+--EDW views dependency
+Give me the list of  Dependent Table Names equal to view name is EDW_VIEWS.vwcg_BibFill_Intelligence 
+Give me the view DDL for EDW_VIEWS.vwcg_dimDate_Attributes
+Give me the view ddl for EDW_VIEWS.BISecurityOrgTypes
+Give me the list of  view names comes under schema name = EDW_VIEWS
+Give me the  view names comes under schema dependent table schema name = EDW_VIEWS
+
+
+
+
+1. Tabulate the dimdate tablename. Include the Databasename, columnName(Teradata) and the ColumnLenght columns only.save output df into a csv file
+1.1 print dimdate table. The columndatatype is teradata. convert into a snowflake compatable datatype
+2. tabulate the ColumnName(Teradata) count of each TableName
+3. I want details for EBAN. Only column names with ColumnDataType
+2.1. show columns names
+3. I want details for dimdate table. Only column names with ColumnDataType
+3.1 what is structure of FACTINVENTORY. Give me its data types
+4. Give me the list of TableNames  does the “DataBaseName”  Column is EDW
+6. What is the ColumnDataType/columnLength/CreatorName of “DatabaseName” column is EDW of “Tablename ” column is dimdate
+7. What is the ColumnDataType/columnLength/CreatorName of “DatabaseName” column is EDW of “Tablename ” column is dimdate. save output df into a csv file"
+8. EDW table names and it's respective columnname
