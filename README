@@ -1,0 +1,49 @@
+##  Streamlit CSV Data Explorer with OpenAI Integration ##
+
+The CSV Data Explorer leverages OpenAI's capabilities to analyze and interpret datasets.
+Users can upload a CSV file and interact with the data through natural language prompts,
+receiving insights and visualizations directly in the web application.
+
+# OpenAI API Key
+To use the CSV Data Explorer's core functionalities, you need an OpenAI API key. This key provides access to OpenAI's powerful natural language processing capabilities, which the application uses to analyze and interpret the uploaded datasets.
+
+# Obtaining the API Key
+
+1. Log In to OpenAI: https://beta.openai.com/login/
+2. Navigate to the API Section: Once logged in, go to the API section to access your API keys.
+3. Generate a New Key: If you don’t have an API key yet, generate a new one.
+Store this key securely as you'll need it to run the CSV Data Explorer.
+
+# Using the API Key with CSV Data Explorer
+1. Environment Variable: Once you have your OpenAI API key, you'll need to add it to the .env file in the root directory of the application:
+
+-- **OPENAI_API_KEY**= "your_openai_api_key_here""
+
+## Features
+
+- **Upload CSV**: Users can upload a CSV file which is loaded into a pandas DataFrame.
+- **OpenAI Integration**: Users can send prompts to OpenAI's GPT model with the CSV data and receive responses.
+- **Data Visualization**: The application provides bar and line plots to visualize the data.
+
+## Dependencies
+
+- `os`
+- `streamlit`
+- `pandas`
+- `dotenv`
+- `PandasAI`
+- `OpenAI`
+- `plotly`
+
+## Setup
+
+1. Clone the repository.
+2. Install the required packages.
+3. Set up your `OPENAI_API_KEY` in your environment.
+4. Run the application using the command: `streamlit run app.py`.
+
+## Usage
+
+1. Open your browser and go to the Streamlit server link, usually http://localhost:8501.
+2. Interact with the application by uploading your CSV file and asking questions about your data.
+3. View the results and visualizations.
